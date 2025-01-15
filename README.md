@@ -2,6 +2,28 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
 
+nvm install v22.13.0
+
+nvm use v22.13.0
+
+npm install -g @angular/cli
+
+ng new aiagent --routing --style scss --skip-install --skip-git --strict --ssr
+Would you like to use the Server Routing and App Engine APIs (Developer Preview) for this server application? No
+
+ng add @angular/pwa
+
+ng add @angular/fire@19.0.0-rc.5 
+What features would you like to setup? Authentication, Google Analytics, Firestore, Realtime Database, Performance Monitoring
+Which Firebase account would you like to use? wpbest@gmail.com
+Please select a project: AiAgent
+Please select an app: aiagentbe
+
+ng add @angular/material
+Choose a prebuilt theme name, or "custom" for a custom theme: Azure/Blue
+Set up global Angular Material typography styles? yes
+Include the Angular animations module? Include and enable animations
+
 ## Development server
 
 To start a local development server, run:
